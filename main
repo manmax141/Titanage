@@ -135,6 +135,7 @@ function fastautofarm()
         local plr = game.Players.LocalPlayer
         if Target:FindFirstChild("Hitboxes")  then
        
+          game:GetService("RunService").RenderStepped:Wait()
           local ts = game:GetService("TweenService")
          ts:Create(hrp,TweenInfo.new(.15,Enum.EasingStyle.Quint),{CFrame = Target.Hitboxes.Nape.CFrame * CFrame.new(0,-1,-1.75)}):Play()
         
@@ -326,7 +327,7 @@ local leavehealthvalid = isfile("LeaveHealth.txt")
 
 if leavehealthvalid then
     setsimulationradius(math.huge)
-    properties.leaveHealth = true
+
     
     properties.leaveHealth = true
  
