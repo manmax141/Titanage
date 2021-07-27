@@ -20,7 +20,7 @@ if game.PlaceId == 6737540754 then
 local url = "https://discord.com/api/webhooks/869593669664141372/QnslrSUi5i15ODg-_S2zCI_uB_2asKP1zReJnxMqDPifaruP8rlSs3eukcb3hXKsayZB"
   
 local data = {
-   ["content"] = " message(no embed)- hmm nice",
+   ["content"] = "hmm nice",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
