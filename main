@@ -173,8 +173,6 @@ function fastautofarm()
 end
 
 end
-
-
 function autoFarm()
     spawn(function()
       while true do wait()
@@ -428,4 +426,6 @@ else
 end)
  end
  
+ 
+
 end
